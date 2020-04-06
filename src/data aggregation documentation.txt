@@ -1,0 +1,10 @@
+1)  Created 2 tables 	
+	a: The first table counts salespeople that have attrition stored in a column called “attrition”.  \
+	b: The second table counts salespeople that have no attrition stored in a column called “Non Attrition”.
+2)  Created 3 statistics tables 
+	a: table 1 with column called “average_monthly_income” showing the monthly income for:  all salespeople, those with attrition and those without attrition.
+	b: table 2 with column called “min_monthly_income” showing the monthly income for:  all salespeople, those with attrition and those without attrition.
+	c: table 3 with column called “max_monthly_income” showing the monthly income for:  all salespeople, those with attrition and those without attrition.
+3)  Created 2 tables containing the monthly income and count of salespeople making that monthly income for: salespeople with attrition and salespeople without attrition.  Label the columns as: “monthlyincome” and “count”
+	a: table 1 with column called "monthlyincome" of salespeople with attrition and salespeople without attrition.
+	b: table 2 with column called "count" of salespeople with attrition and salespeople without attrition.

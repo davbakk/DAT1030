@@ -1,0 +1,4 @@
+The raw data set for this repository is a .csv file that contains the human resources data for a company.
+This data can be found at https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset/data
+To download and access this data, you need an account with Kaggle. 
+You can use existing accounts with other services to log in instead of creating a Kaggle specific account.

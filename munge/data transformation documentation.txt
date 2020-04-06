@@ -1,0 +1,8 @@
+Data Transformations
+1:	a) Created new table for analysis called “employee_sales”. 
+ 	b) Loaded the table “employee” into this table.
+	c) Selected columns: Attrition, Department, JobSatisfaction & MonthlyIncome.  
+ 
+2:	Rounded the data found in the “MonthlyIncome” column to the nearest $1000 using the SQL function ROUND(obs, -3)
+3:	Filtered the data to only look at those items in the “Sales Department”.
+4:	Ordered the data by “JobSatisfaction” from highest to lowest using the DESC query.

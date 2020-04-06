@@ -1,0 +1,42 @@
+Assuming data from previous assignments is loaded:
+
+part1
+
+INSERT OVERWRITE TABLE attrition
+SELECT COUNT(Attrition) AS attrition
+FROM employee
+WHERE Attrition LIKE "%Yes%" AND Department LIKE "%Sales%";
+
+INSERT OVERWRITE TABLE Non Attrition
+SELECT COUNT(Attrition) AS non_attrition
+FROM employee
+WHERE Attrition LIKE "%No%" AND Department LIKE "%Sales%";
+
+part2
+
+INSERT OVERWRITE TABLE average
+SELECT AVG(MonthlyIncome) AS average_monthly_income
+FROM employee
+WHERE Attrition LIKE "%No%" AND Department LIKE "%Sales%", WHERE Attrition LIKE "%No%" AND Department LIKE "%Sales%";
+
+INSERT OVERWRITE TABLE min
+SELECT Min(MonthlyIncome) AS min_monthly_income
+FROM employee
+WHERE Attrition LIKE "%No%" AND Department LIKE "%Sales%", WHERE Attrition LIKE "%No%" AND Department LIKE "%Sales%";
+
+INSERT OVERWRITE TABLE max
+SELECT MAX(MonthlyIncome) AS max_monthly_income
+FROM employee
+WHERE Attrition LIKE "%No%" AND Department LIKE "%Sales%", WHERE Attrition LIKE "%No%" AND Department LIKE "%Sales%";
+
+part3
+
+INSERT OVERWRITE TABLE attrition_income
+SELECT MonthlyIncome AS monthlyincome, COUNT MonthlyIncome AS count
+FROM employee
+WHERE Attrition LIKE "%Yes%" AND Department LIKE "%Sales%";
+
+INSERT OVERWRITE TABLE non_attrition_income
+SELECT MonthlyIncome AS monthlyincome, COUNT MonthlyIncome AS count
+FROM employee
+WHERE Attrition LIKE "%No%" AND Department LIKE "%Sales%";
