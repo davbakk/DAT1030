@@ -1,4 +1,4 @@
-In this project, we are analyzing the effects of attrition on employee income.
+In this project, we are analyzing the effects of attrition on employee income using human resources data from a business.
 
 We found that attrition did not play a significant role in determining employee income.
 The distribution of employees on the income spectrum remained consistent with the ratio of attrition:nonattrition.
